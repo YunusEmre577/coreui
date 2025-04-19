@@ -1,0 +1,18 @@
+{
+  "title": "Button\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var j=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var p=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),M=(t,n)=>{for(var e in n)a(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,u)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of d(n))!l.call(t,o)&&o!==e&&a(t,o,{get:()=>n[o],enumerable:!(u=_(n,o))||u.enumerable});return t};var g=(t,n,e)=>(e=t!=null?f(j(t)):{},c(n||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),C=t=>c(a({},\"__esModule\",{value:!0}),t);var s=p((h,m)=>{m.exports=_jsx_runtime});var F={};M(F,{default:()=>i,frontmatter:()=>D});var r=g(s()),D={title:\"Button\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return C(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/button.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/button.mdx",
+    "sourceFileName": "button.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/button"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/button",
+  "category": "components"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Collapsible",
+  "apiName": "collapsible\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var x=Object.create;var a=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),C=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},l=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!d.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=p(e,o))||i.enumerable});return t};var M=(t,e,n)=>(n=t!=null?x(_(t)):{},l(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),b=t=>l(a({},\"__esModule\",{value:!0}),t);var c=j((X,s)=>{s.exports=_jsx_runtime});var D={};C(D,{default:()=>u,frontmatter:()=>g});var r=M(c()),g={title:\"Collapsible\",apiName:\"collapsible\"};function m(t){return(0,r.jsx)(r.Fragment,{})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return b(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/collapsible.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/collapsible.mdx",
+    "sourceFileName": "collapsible.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/collapsible"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/collapsible",
+  "category": "components"
+}

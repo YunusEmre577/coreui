@@ -1,0 +1,19 @@
+{
+  "title": "Hover Card",
+  "apiName": "hover-card\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var l=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),C=(t,e)=>{for(var r in e)a(t,r,{get:e[r],enumerable:!0})},m=(t,e,r,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!j.call(t,o)&&o!==r&&a(t,o,{get:()=>e[o],enumerable:!(c=f(e,o))||c.enumerable});return t};var M=(t,e,r)=>(r=t!=null?d(p(t)):{},m(e||!t||!t.__esModule?a(r,\"default\",{value:t,enumerable:!0}):r,t)),g=t=>m(a({},\"__esModule\",{value:!0}),t);var s=l((F,i)=>{i.exports=_jsx_runtime});var v={};C(v,{default:()=>x,frontmatter:()=>h});var n=M(s()),h={title:\"Hover Card\",apiName:\"hover-card\"};function u(t){return(0,n.jsx)(n.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return g(v);})();\n;return Component;"
+  },
+  "_id": "docs/components/hovercard.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/hovercard.mdx",
+    "sourceFileName": "hovercard.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/hovercard"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/hovercard",
+  "category": "components"
+}

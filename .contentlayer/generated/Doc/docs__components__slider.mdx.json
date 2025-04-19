@@ -1,0 +1,19 @@
+{
+  "title": "Slider",
+  "apiName": "slider\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!p.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=f(e,o))||i.enumerable});return t};var g=(t,e,n)=>(n=t!=null?d(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>m(a({},\"__esModule\",{value:!0}),t);var c=j((h,s)=>{s.exports=_jsx_runtime});var F={};M(F,{default:()=>x,frontmatter:()=>D});var r=g(c()),D={title:\"Slider\",apiName:\"slider\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return C(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/slider.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/slider.mdx",
+    "sourceFileName": "slider.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/slider"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/slider",
+  "category": "components"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Tooltip",
+  "apiName": "tooltip\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of l(e))!d.call(t,r)&&r!==n&&a(t,r,{get:()=>e[r],enumerable:!(i=f(e,r))||i.enumerable});return t};var g=(t,e,n)=>(n=t!=null?p(_(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>m(a({},\"__esModule\",{value:!0}),t);var s=j((h,c)=>{c.exports=_jsx_runtime});var F={};M(F,{default:()=>x,frontmatter:()=>D});var o=g(s()),D={title:\"Tooltip\",apiName:\"tooltip\"};function u(t){return(0,o.jsx)(o.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,o.jsx)(e,{...t,children:(0,o.jsx)(u,{...t})}):u(t)}return C(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/tooltip.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/tooltip.mdx",
+    "sourceFileName": "tooltip.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/tooltip"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/tooltip",
+  "category": "components"
+}

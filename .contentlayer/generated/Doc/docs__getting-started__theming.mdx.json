@@ -1,0 +1,18 @@
+{
+  "title": "Theming\r",
+  "body": {
+    "raw": "\r\n# Hello World2\r\n\r\nMy Name Is Yunus Emre Gun, What Is Your Name Brother?2\r\n",
+    "code": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,_=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),j=(e,n)=>{for(var r in n)a(e,r,{get:n[r],enumerable:!0})},l=(e,n,r,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of x(n))!_.call(e,o)&&o!==r&&a(e,o,{get:()=>n[o],enumerable:!(s=u(n,o))||s.enumerable});return e};var M=(e,n,r)=>(r=e!=null?m(p(e)):{},l(n||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),g=e=>l(a({},\"__esModule\",{value:!0}),e);var i=f((y,c)=>{c.exports=_jsx_runtime});var I={};j(I,{default:()=>d,frontmatter:()=>w});var t=M(i()),w={title:\"Theming\"};function h(e){let n={a:\"a\",h1:\"h1\",p:\"p\",span:\"span\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(n.h1,{id:\"hello-world2\",children:[(0,t.jsx)(n.a,{\"aria-hidden\":\"true\",tabIndex:\"-1\",href:\"#hello-world2\",children:(0,t.jsx)(n.span,{className:\"icon icon-link\"})}),\"Hello World2\"]}),`\n`,(0,t.jsx)(n.p,{children:\"My Name Is Yunus Emre Gun, What Is Your Name Brother?2\"})]})}function d(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(h,{...e})}):h(e)}return g(I);})();\n;return Component;"
+  },
+  "_id": "docs/getting-started/theming.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/getting-started/theming.mdx",
+    "sourceFileName": "theming.mdx",
+    "sourceFileDir": "docs/getting-started",
+    "contentType": "mdx",
+    "flattenedPath": "docs/getting-started/theming"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/getting-started/theming",
+  "category": "getting-started"
+}

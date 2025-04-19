@@ -1,0 +1,19 @@
+{
+  "title": "Checkbox",
+  "apiName": "checkbox\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),l=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},x=(t,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(c=_(e,o))||c.enumerable});return t};var C=(t,e,n)=>(n=t!=null?f(d(t)):{},x(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),M=t=>x(a({},\"__esModule\",{value:!0}),t);var i=j((D,m)=>{m.exports=_jsx_runtime});var g={};l(g,{default:()=>u,frontmatter:()=>b});var r=C(i()),b={title:\"Checkbox\",apiName:\"checkbox\"};function s(t){return(0,r.jsx)(r.Fragment,{})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(s,{...t})}):s(t)}return M(g);})();\n;return Component;"
+  },
+  "_id": "docs/components/checkbox.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/checkbox.mdx",
+    "sourceFileName": "checkbox.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/checkbox"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/checkbox",
+  "category": "components"
+}

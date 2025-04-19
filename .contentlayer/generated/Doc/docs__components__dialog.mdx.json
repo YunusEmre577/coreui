@@ -1,0 +1,19 @@
+{
+  "title": "Dialog",
+  "apiName": "dialog\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of _(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=l(e,o))||i.enumerable});return t};var D=(t,e,n)=>(n=t!=null?f(d(t)):{},m(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),M=t=>m(a({},\"__esModule\",{value:!0}),t);var s=p((h,c)=>{c.exports=_jsx_runtime});var F={};j(F,{default:()=>x,frontmatter:()=>C});var r=D(s()),C={title:\"Dialog\",apiName:\"dialog\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return M(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/dialog.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/dialog.mdx",
+    "sourceFileName": "dialog.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/dialog"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/dialog",
+  "category": "components"
+}

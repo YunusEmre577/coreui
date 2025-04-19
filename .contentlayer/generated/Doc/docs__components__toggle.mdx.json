@@ -1,0 +1,19 @@
+{
+  "title": "Toggle",
+  "apiName": "toggle\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var g=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var d=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),j=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of l(e))!p.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(m=f(e,o))||m.enumerable});return t};var M=(t,e,n)=>(n=t!=null?g(_(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>c(a({},\"__esModule\",{value:!0}),t);var s=d((h,i)=>{i.exports=_jsx_runtime});var F={};j(F,{default:()=>x,frontmatter:()=>D});var r=M(s()),D={title:\"Toggle\",apiName:\"toggle\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return C(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/toggle.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/toggle.mdx",
+    "sourceFileName": "toggle.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/toggle"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/toggle",
+  "category": "components"
+}

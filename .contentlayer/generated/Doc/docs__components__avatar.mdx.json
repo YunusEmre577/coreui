@@ -1,0 +1,19 @@
+{
+  "title": "Avatar",
+  "apiName": "avatar\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var o=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var l=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),M=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,m)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!j.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(m=_(e,a))||m.enumerable});return t};var g=(t,e,n)=>(n=t!=null?f(d(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),v=t=>c(o({},\"__esModule\",{value:!0}),t);var s=l((X,i)=>{i.exports=_jsx_runtime});var D={};M(D,{default:()=>x,frontmatter:()=>C});var r=g(s()),C={title:\"Avatar\",apiName:\"avatar\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return v(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/avatar.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/avatar.mdx",
+    "sourceFileName": "avatar.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/avatar"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/avatar",
+  "category": "components"
+}

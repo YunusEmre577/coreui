@@ -1,0 +1,18 @@
+{
+  "title": "Paragraph\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),l=(t,n)=>{for(var e in n)a(t,e,{get:n[e],enumerable:!0})},m=(t,n,e,c)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!g.call(t,o)&&o!==e&&a(t,o,{get:()=>n[o],enumerable:!(c=_(n,o))||c.enumerable});return t};var M=(t,n,e)=>(e=t!=null?f(d(t)):{},m(n||!t||!t.__esModule?a(e,\"default\",{value:t,enumerable:!0}):e,t)),h=t=>m(a({},\"__esModule\",{value:!0}),t);var u=j((X,s)=>{s.exports=_jsx_runtime});var D={};l(D,{default:()=>i,frontmatter:()=>C});var r=M(u()),C={title:\"Paragraph\"};function x(t){return(0,r.jsx)(r.Fragment,{})}function i(t={}){let{wrapper:n}=t.components||{};return n?(0,r.jsx)(n,{...t,children:(0,r.jsx)(x,{...t})}):x(t)}return h(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/paragraph.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/paragraph.mdx",
+    "sourceFileName": "paragraph.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/paragraph"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/paragraph",
+  "category": "components"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Heading",
+  "apiName": "heading\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var _=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),l=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},m=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of _(e))!p.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(i=f(e,a))||i.enumerable});return t};var M=(t,e,n)=>(n=t!=null?d(g(t)):{},m(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),h=t=>m(o({},\"__esModule\",{value:!0}),t);var s=j((X,c)=>{c.exports=_jsx_runtime});var D={};l(D,{default:()=>x,frontmatter:()=>C});var r=M(s()),C={title:\"Heading\",apiName:\"heading\"};function u(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(u,{...t})}):u(t)}return h(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/heading.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/heading.mdx",
+    "sourceFileName": "heading.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/heading"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/heading",
+  "category": "components"
+}

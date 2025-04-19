@@ -1,0 +1,19 @@
+{
+  "title": "Radio Group",
+  "apiName": "radio-group\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var _=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),l=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},u=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of f(e))!g.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=d(e,o))||i.enumerable});return t};var M=(t,e,n)=>(n=t!=null?p(_(t)):{},u(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),C=t=>u(a({},\"__esModule\",{value:!0}),t);var c=j((h,m)=>{m.exports=_jsx_runtime});var F={};l(F,{default:()=>x,frontmatter:()=>D});var r=M(c()),D={title:\"Radio Group\",apiName:\"radio-group\"};function s(t){return(0,r.jsx)(r.Fragment,{})}function x(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(s,{...t})}):s(t)}return C(F);})();\n;return Component;"
+  },
+  "_id": "docs/components/radiogroup.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/radiogroup.mdx",
+    "sourceFileName": "radiogroup.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/radiogroup"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/radiogroup",
+  "category": "components"
+}

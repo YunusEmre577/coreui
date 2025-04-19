@@ -1,0 +1,18 @@
+{
+  "title": "Text Field\r",
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var f=Object.create;var a=Object.defineProperty;var _=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var p=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),F=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,x)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of d(e))!j.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(x=_(e,o))||x.enumerable});return t};var M=(t,e,n)=>(n=t!=null?f(l(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),g=t=>c(a({},\"__esModule\",{value:!0}),t);var m=p((h,i)=>{i.exports=_jsx_runtime});var D={};F(D,{default:()=>u,frontmatter:()=>C});var r=M(m()),C={title:\"Text Field\"};function s(t){return(0,r.jsx)(r.Fragment,{})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(s,{...t})}):s(t)}return g(D);})();\n;return Component;"
+  },
+  "_id": "docs/components/textfield.mdx",
+  "_raw": {
+    "sourceFilePath": "docs/components/textfield.mdx",
+    "sourceFileName": "textfield.mdx",
+    "sourceFileDir": "docs/components",
+    "contentType": "mdx",
+    "flattenedPath": "docs/components/textfield"
+  },
+  "type": "Doc",
+  "fileUrl": "docs/components/textfield",
+  "category": "components"
+}
