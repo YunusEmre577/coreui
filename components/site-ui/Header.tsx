@@ -46,11 +46,12 @@ const Header: React.FC = () => {
           <nav className="flex items-center gap-2">
             {headerContents["header-contents"].map(({ title, href }, i) => (
               <Link
-                className="text-muted text-sm hover:text-foreground transition"
+                className="text-muted flex items-center gap-2 text-sm hover:text-foreground transition"
                 href={href as string}
                 key={i}
               >
                 <span>{title}</span>
+                <span className="text-[10px] p-1 px-3 rounded-lg bg-secondary text-muted font-medium">soon</span>
               </Link>
             ))}
           </nav>
